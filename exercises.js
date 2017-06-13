@@ -239,7 +239,7 @@ function hasEmail(user) {
   } else {
     return false;
   }
-}
+
 
 function hasProperty(object, property) {
   //return true if the object has the value of the property argument
@@ -250,7 +250,7 @@ if (object[property]) {
   } else {
     return false;
   }
-}
+
 
 function verifyPassword(user, password) {
   //check to see if the provided password matches the password property on the user object
